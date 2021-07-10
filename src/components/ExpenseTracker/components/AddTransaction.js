@@ -27,8 +27,8 @@ export const AddTransaction = () => {
             <hr/>
             <form onSubmit={onSubmit}>
                 <div className="input-field">
-                    <label htmlFor="text">Text</label>
-                    <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
+                    <label htmlFor="text">Enter Text</label>
+                    <input type="text" value={text} onChange={(e) => setText(e.target.value)}/>
                 </div>
                 <div style={{ marginTop: '-15px' }}>
                     <label htmlFor="amount">Amount <br />(negative-expense),positive-income)</label>
