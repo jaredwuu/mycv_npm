@@ -17,7 +17,7 @@ const store = createStore(reducers, compose(applyMiddleware(thunk)))
 const MemoriesApp = () => {
 
     return (
-        <div className='container h-screen border-2'>
+        <div className='container border-2'>
             <Provider store={store}>
                 <BrowserRouter>
                     <Container maxidth="lg">

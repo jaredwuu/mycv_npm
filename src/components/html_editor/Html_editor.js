@@ -28,7 +28,7 @@ function Html_editor() {
                 <div className='row'>
                   <div className="col s12 l2">
                     <a href="#!" className="brand-logo">HTML_EDITOR</a>
-                    <a href="#!" data-target="mobile-demo2" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <a href="#!" data-target="mobile-demo3" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                   </div>
                   <div className="col s12 l10">
                     <ul className="right hide-on-med-and-down">
@@ -43,7 +43,7 @@ function Html_editor() {
               </div>
             </nav>
 
-            <ul className="sidenav" id="mobile-demo2">
+            <ul className="sidenav" id="mobile-demo3">
               <li><a href="/html_editor">Sass</a></li>
               <li><a href="/html_editor">Components</a></li>
               <li><a href="/html_editor">Javascript</a></li>
