@@ -49,8 +49,7 @@ const Auth = () => {
         const result =res?.profileObj;
         const token = res?.tokenId;   
         try {
-            dispatch({type:'AUTH',data:{result,token}});
-
+            dispatch({type:'AUTH',data:{result,token}});        
             history.push('/memories');
         } catch (error) {
             console.log(error);
@@ -88,7 +87,7 @@ const Auth = () => {
                             {isSignup ?'Sign Up' : 'Sign In'}
                         </Button>
                         <GoogleLogin 
-                            clientId="1057041269188-n30504589ro2jeaq1il63pgdoahc5m7m.apps.googleusercontent.com"
+                            clientId="1057041269188-dcdnt1uen3jgropdm6sveqnk0poi3u0i.apps.googleusercontent.com"                            
                             render={(renderProps)=>(
                                 <Button 
                                     className={classes.googleButton} 
@@ -120,7 +119,6 @@ const Auth = () => {
                 </form>
             </Paper>
         </Container >
-
     )
 }
 
