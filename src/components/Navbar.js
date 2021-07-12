@@ -117,7 +117,7 @@ const Navbar = () => {
                         <i className='fas fa-envelope'></i>Contact
                     </Link>
                 </li>
-                <li className='mobinav sidenav-close'>
+                {/* <li className='mobinav sidenav-close'>
                     <button className='dropdown-trigger transparent w-full pr-24' data-target='dropdown1'>
                         <i className='fas fa-file-signature'></i><strong className='pl-12'>Projects</strong><i className="material-icons center right">arrow_drop_down</i>
                     </button>
@@ -156,7 +156,7 @@ const Navbar = () => {
                         </li>
 
                     </ul>
-                </div>
+                </div> */}
             </ul>
         </>
     )
