@@ -18,6 +18,8 @@ const Projects = () => {
     
     return (
         <div className='container'>
+            <iframe src="jiachaowu.com" className='w-full h-screen' title="Iframe Example"></iframe>
+            <iframe src="https://www.baidu.com" className='w-full h-screen' title=""></iframe>
             <Dropdown />
             <TextField name="title" variant="outlined" label="Title" fullWidth value={''} />
             <input type='text' style={{ textDecoration: 'none', border: '2px' }}></input>

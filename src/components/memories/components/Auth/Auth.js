@@ -31,7 +31,7 @@ const Auth = () => {
             dispatch(signin(formData,history));
 
         }
-        //console.log(formData);
+        console.log(formData);
 
     };
 
